@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc421ad0.chunk.css",
+    "main.js": "/static/js/main.a561e016.chunk.js",
+    "main.js.map": "/static/js/main.a561e016.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a970e728.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a970e728.js.map",
+    "static/js/2.03d6d295.chunk.js": "/static/js/2.03d6d295.chunk.js",
+    "static/js/2.03d6d295.chunk.js.map": "/static/js/2.03d6d295.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.c2b962902f5c18c036e2c5ef783070b6.js": "/precache-manifest.c2b962902f5c18c036e2c5ef783070b6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.bc421ad0.chunk.css.map": "/static/css/main.bc421ad0.chunk.css.map",
+    "static/media/github.svg": "/static/media/github.617870e4.svg",
+    "static/media/gmail-logo.svg": "/static/media/gmail-logo.284ba2d2.svg",
+    "static/media/hi-im-xavier-mod.svg": "/static/media/hi-im-xavier-mod.60d7cffc.svg",
+    "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.b4cf8300.svg",
+    "static/media/me.png": "/static/media/me.ddee7312.png",
+    "static/media/medium.svg": "/static/media/medium.5b6c39e9.svg",
+    "static/media/mywork.svg": "/static/media/mywork.d5f8073a.svg",
+    "static/media/name-full.png": "/static/media/name-full.61448adb.png",
+    "static/media/profile.svg": "/static/media/profile.5464ae75.svg",
+    "static/media/xm-main.svg": "/static/media/xm-main.18ff4782.svg"
+  }
+}

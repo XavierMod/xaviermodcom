@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
+
+/* font-family: 'Reenie Beanie', cursive; */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #131313;
+  /* overflow: hidden; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@keyframes moveInLeft {
+  0% {
+      opacity: 0;
+      transform: translateX(-100px);
+  }
+
+  80% {
+      transform: translateX(10px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+      opacity: 0;
+      transform: translateX(100px);
+  }
+
+  80% {
+      transform: translateX(-5px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateX(0);
+  }
+}
+
+@keyframes moveInTop {
+  0% {
+      opacity: 0;
+      transform: translateY(-300px)
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0px)
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(30px)
+  }
+  100% {
+      opacity: 1;
+      transform: translateY(0)
+  }
+}
+
+@keyframes typing {
+  from { 
+      width: 0% 
+  }
+  to { 
+      width: 60% 
+  }
+}
+
+@keyframes blink {
+  from, to { 
+      border-color: transparent 
+  }
+  50% { 
+      border-color: #3399ff; 
+  }
+}
+
+@keyframes text {
+	from {
+	        clip-path: inset(0 100% 0 0);
+	}
+	to {
+	        clip-path: inset(0 0 0 0);
+	}
+}
+ 
+@keyframes revealer {
+	
+	0%, 50% {
+	        transform-origin: 0%;
+	}
+	
+	60%, 100% {
+	        transform-origin: 100%;		
+	}
+ 
+	
+	60% {
+	        transform: scaleX(1);
+	}
+	
+	100% {
+	        transform: scaleX(0);
+	}
+}
