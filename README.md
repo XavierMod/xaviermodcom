@@ -1,7 +1,10 @@
 xaviermod.com was has been created with [Create React App](https://github.com/facebook/create-react-app).
 
-## Changelog
+## Live Version
 
+You can check the my website's progress here www.xaviermod.com
+
+## Changelog
 
 **18/09/2019** UI updated, pattern added. Social media icons updated.
 
