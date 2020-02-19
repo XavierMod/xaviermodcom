@@ -2,12 +2,18 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { largerThan, smallerThan } from '../../helpers/mediaQueries'; 
 
+import Popover from '../library/Poppover';
+
+
 const TextModuleContainer = styled.div`
     display: block;
     color: white;
     margin: 30px 10px;
     height: 100%;
     padding: 30px;
+
+    animation: moveInLeft 1s ease-out 0.5s;
+    animation-fill-mode: backwards;
 
     ${smallerThan.mobile`
 
@@ -16,7 +22,7 @@ const TextModuleContainer = styled.div`
 
 const H1 = styled.h1`
 	position: relative;
-	font-size: 20px;
+	font-size: 2rem;
 	animation-name: text;
     color: #FFF;
     display: inline-block;
@@ -50,6 +56,7 @@ const H1 = styled.h1`
 
 const P = styled.p`
     margin-bottom: 15px;
+    font-size: 1.1rem;
 `;
 
 

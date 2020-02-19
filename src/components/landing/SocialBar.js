@@ -12,7 +12,8 @@ const SocialBarContainer = styled.div`
     padding: 25px;
     position: fixed;
     right: 0;
-
+    z-index: 2000;
+    
     animation: moveInRight 1.5s ease-out;
     animation-fill-mode: backwards;
 

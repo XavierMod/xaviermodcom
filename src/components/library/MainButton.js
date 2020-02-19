@@ -65,6 +65,18 @@ const MainBtnContainer = ( props ) =>  {
                 border: '1px solid black',
                 color: 'white'
             }           
+        } else if (props.type === 'white') {
+            style = {
+                backgroundColor: 'rgba(0, 0, 0, 0)',
+                border: '1px solid white',
+                color: 'white'
+            } 
+        } else if (props.type === 'blue') {
+            style = {
+                backgroundColor: '#3399ff',
+                border: '1px solid #3399ff',
+                color: 'white'
+            } 
         }
 
         return style;

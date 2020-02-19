@@ -19,7 +19,7 @@ const Btns = styled.div`
 const BtnContainer = () =>  {   
     return (
             <Btns>
-                <Link to="/projects"><MainButton emoji="💻" type="primary" text="Explore work" /></Link>
+                <Link to="/projects/xavier-mod-website"><MainButton emoji="💻" type="primary" text="Explore work" /></Link>
                 <Link to="/profile"><MainButton emoji="👨🏻‍💻" text="View Profile" /></Link>
             </Btns>
     );

@@ -9,6 +9,8 @@ const LogoMain = styled.div`
     left: 0;
     padding: 30px;
 
+    z-index: 2000;
+
     img {
         width: 50px;
     }

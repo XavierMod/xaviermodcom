@@ -1,65 +1,71 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
-import { largerThan, smallerThan } from '../../helpers/mediaQueries'; 
-import LogoMain from '../landing/LogoMain';
-import { Route, Link, BrowserRouter as Router } from 'react-router-dom'
+import { Route, BrowserRouter } from 'react-router-dom';
+import axios from '../../axios';
 
-import NameFull from '../landing/NameFull';
-import SocialBar from '../landing/SocialBar';
-import Footer from '../library/Footer';
-import GalleryItem from './GalleryItem';
-import ProjectTemplate from './projectTemplate';
+import ProjectTemplate from './ProjectTemplate';
+import { get } from 'https';
 
-import MyWorkTitle from './myworkTitle';
+import Spinner from '../library/Spinner';
+// import { Spinner } from 'reactstrap';
 
-import test from '../../projectsData/test';
+class MainProjects extends Component {
 
-import WorkingOnThat from '../../components/WorkingOnThat';
-
-const ProjectsContainer = styled.div`
-
-`;
-
-const GalleryProjects = styled.div`
-    text-align: center;
-    /* padding: 30px; */
-    /* border: 1px solid red; */
-
-`;
-
-class Projects extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {}
+    state = {
+        projects: [],
+        loading: true
     }
 
-    render() {
+    componentDidMount() {
+        console.log('I just got data from fb')
+        axios.get('/.json')
+            .then(response => {
+                var newArr = [];
+                Object.keys(response.data).forEach((el, ind, arr) => {
+                    newArr.push(response.data[el]);
+                });
+                this.setState({projects: newArr});
+                this.setState({loading: false});
+                
+            })
+            .catch(error => {
+                console.log(error)
+            })
+    }
 
-        // Sets body to white
-        document.querySelector('body').style.backgroundColor='white';
-        document.querySelector('html').style.backgroundColor='white';
+    render () {
 
+
+        const getAllUrls = () => {
+            var urls = [];
+            this.state.projects.forEach((el, ind, arr) => {
+                urls.push(el.id);
+            });
+            return urls;
+        }
+
+        // Renders all small posts
+        const templates = this.state.projects.map((el, ind, arr) => {
+            return <Route key={el.id} path={this.props.match.url + "/" + el.id} exact
+            render={() => 
+            <ProjectTemplate
+                {...this.props}
+                data={this.state.projects[ind]}
+                url={el.id}
+                indUrl={ind}
+                key={el.company}
+                title={el.title}
+                allUrls={getAllUrls()}
+                info={el.info} />} />
+        });
 
         return (
-            // <ProjectsContainer>
-            //     <Link to="/"><LogoMain type="black" /></Link>
-
-            //     <SocialBar type="black" />
-            //     <MyWorkTitle />
-            //     <GalleryProjects>
-            //         {test.map((obj, number) => {
-            //             console.log(obj.meta.route)
-            //             return (
-            //                 <GalleryItem key={obj.meta.key} imgUrl={obj.meta.photos[0].url} />
-            //             )
-            //         })}
-            //     </GalleryProjects>
-
-            //     <Footer /> 
-            // </ProjectsContainer>
-            <WorkingOnThat />
-        );
+            <React.Fragment>
+                {this.state.loading ? <Spinner /> : null}
+                {templates}
+            </React.Fragment>
+          )
     }
-};
+}
 
-export default Projects;
+
+export default MainProjects;

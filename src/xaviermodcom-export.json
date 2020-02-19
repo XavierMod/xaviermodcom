@@ -1,0 +1,166 @@
+{
+  "furgo" : {
+    "addGithub" : false,
+    "company" : "Furgo",
+    "description" : "I started as a Graphic/Motion Design Intern and then got hired as a UI designer. I had the chance of working in a small startup team, with developers, business and product managers. I was partially in charge of some design decisions.",
+    "id" : "furgo",
+    "images" : {
+      "image1" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/f-1.jpg?alt=media&token=01b8eacd-b9b1-4eab-9850-aca4372b42a1",
+      "image2" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/f-2.jpg?alt=media&token=bd602eae-2d2d-4a8c-9859-ee0f14b60124",
+      "image3" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/f-3.jpg?alt=media&token=2a3e867b-0027-4cbe-aedf-f4bb55a08a67",
+      "image4" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/f-4.jpg?alt=media&token=6793888f-3a89-4b7f-b869-336bc66b9ba1",
+      "image5" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/f-5.jpg?alt=media&token=d9a1e58f-61fd-4730-a46f-7b3b387bfe2a",
+      "image6" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/f-6.jpg?alt=media&token=e8de7b2f-e438-488f-837c-93b125e91320",
+      "image7" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/f-7.jpg?alt=media&token=2a810e12-204d-4e69-8d1a-553ba8b03604",
+      "image8" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/f-8.jpg?alt=media&token=b10e933a-3026-4516-bc31-67c9cc7ee924",
+      "image9" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/f-9.jpg?alt=media&token=0f140c68-bb91-48e1-8efe-fd1b5b6ce044"
+    },
+    "progressBar" : {
+      "design" : {
+        "label" : "Product Design / Branding",
+        "value" : "100"
+      },
+      "development" : {
+        "label" : "Development",
+        "value" : "0"
+      }
+    },
+    "standOut" : {
+      "label": "💼 Professional Project"
+    },
+    "title" : "Furgo"
+  },
+  "kameleon" : {
+    "addGithub" : false,
+    "company" : "Kameleon / FitSprint",
+    "description" : "During my first year of university, I got a Mobile UI internship at FitSprint (now Kameleon) and then got hired as a UI/Product Designer. I was in charge of creating, improving and wireframing as well as building prototypes, style guides and user flows. I also got involved in the Front-End team as a junior UI developer.",
+    "id" : "kameleon",
+    "images" : {
+      "image1" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/kam-1.jpg?alt=media&token=b38110b6-8c1a-4131-a241-861c36151859",
+      "image2" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/kam-2.jpg?alt=media&token=e5d161ff-b8ad-4fe6-ab9f-6fb93395424b",
+      "image3" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/kam-3.jpg?alt=media&token=d69b3322-7ccd-43a3-95bb-d4280aff6a05",
+      "image4" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/kam-4.jpg?alt=media&token=4edd86a4-4236-4761-9172-ccbd2307ddcb",
+      "image5" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/kam-5.jpg?alt=media&token=7dae8387-e069-436f-8e11-ad02b0582840",
+      "image6" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/kam-6.jpg?alt=media&token=72bdd3f3-1650-40ff-8e86-a84195a78831"
+    },
+    "progressBar" : {
+      "design" : {
+        "label" : "Product Design",
+        "value" : "80"
+      },
+      "development" : {
+        "label" : "Front End Dev",
+        "value" : "20"
+      }
+    },
+    "standOut" : {
+      "label": "💼 Professional Project"
+    },
+    "title" : "Kameleon"
+  },
+  "logo-design" : {
+    "addGithub" : false,
+    "company" : "Personal project",
+    "description" : "During my design process when I’m creating some visuals for a branding / UI project, I always come up with different logos, patterns… that I don’t end up using. I wanted to add all of these into a “logo design” category.",
+    "id" : "logo-design",
+    "images" : {
+      "image1" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/l-1.jpg?alt=media&token=7666add8-3fcc-4d02-af2a-495bf2201b12",
+      "image2" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/l-2.jpg?alt=media&token=7e069c6b-5394-4287-be7f-c36d32c29bc9",
+      "image3" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/l-3.jpg?alt=media&token=548ae001-64bb-4698-904c-d15068325a55",
+      "image4" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/h-1.jpg?alt=media&token=de955bf5-b8f7-4225-8fe0-50c55dfa8099"
+    },
+    "progressBar" : {
+      "design" : {
+        "label" : "Design",
+        "value" : "100"
+      },
+      "development" : {
+        "label" : "Development",
+        "value" : "0"
+      }
+    },
+    "title" : "Logo Design"
+  },
+  "tellit" : {
+    "addGithub" : false,
+    "company" : "Brunel University London (Project)",
+    "description" : "A UI Design project. (description soon)",
+    "id" : "tit",
+    "images" : {
+      "image1" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/tit-1.png?alt=media&token=040f4494-200d-40ed-b963-7c0abcde6e9f"
+    },
+    "progressBar" : {
+      "design" : {
+        "label" : "Product Design",
+        "value" : "50"
+      },
+      "development" : {
+        "label" : "Front End Dev",
+        "value" : "50"
+      }
+    },
+    "standOut" : {
+      "label": "🎓 University Project"
+    },
+    "title" : "tellIt"
+  },
+  "tvb" : {
+    "addGithub" : {
+      "activate" : true,
+      "link" : "https://github.com/XavierMod/xaviermodcom"
+    },
+    "company" : "Brunel University London (Project)",
+    "description" : "During my first year of university, we were told to design and implement a burger ordering website from scratch. My idea was based around the Veganism world and also followed a minimalistic UI approach for the designs, based on companies like Uber Eats and Deliveroo. The website was built using vanilla JS, HTML and CSS. No JS frameworks. It brought the special attention of Brunel Digital's exhibition judges that worked at Deliveroo.",
+    "id" : "tvb",
+    "images" : {
+      "image1" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/tvb-1.jpg?alt=media&token=ae117c13-9097-44ed-afde-c5a97b1e2656",
+      "image2" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/tvb-2.jpg?alt=media&token=a8580474-6ffc-41b0-bcc5-39e17a3c86a8",
+      "image3" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/tvb-3.jpg?alt=media&token=f3335d61-f5e5-4077-926e-9db4ae676045",
+      "image4" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/tvb-4.jpg?alt=media&token=851ab961-6426-4ea9-b61f-589a4c980d64",
+      "image5" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/tvb-5.jpg?alt=media&token=200a7a81-50cc-44ba-a12c-ecf16b292bf2"
+    },
+    "progressBar" : {
+      "design" : {
+        "label" : "Product Design",
+        "value" : "50"
+      },
+      "development" : {
+        "label" : "Front End Dev",
+        "value" : "50"
+      }
+    },
+    "standOut" : {
+      "label": "🎓 Brunel Digital Nominee"
+    },
+    "title" : "The Vegan Burger",
+    "demo": "https://gifted-mayer-2c25c3.netlify.com"
+  },
+  "xavier-mod-website" : {
+    "addGithub" : {
+      "activate" : true,
+      "link" : "https://github.com/XavierMod/xaviermodcom"
+    },
+    "company" : "Myself",
+    "description" : "xaviermod.com is my own professional website and most complex project so far. It has been designed with special consideration in white-negative space, following a minimalistic approach. On the other hand, it has also been coded from scratch using React.js to showcase my front-end development skills. Up-to-date React features have been used like styled components and a professional (and simple) back-end development environment has been created using Firebase.",
+    "id" : "xavier-mod-website",
+    "images" : {
+      "image1" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/xmw-1.jpg?alt=media&token=793b4cd4-9b8c-4e52-b2d0-d5c16cc642b8",
+      "image2" : "https://firebasestorage.googleapis.com/v0/b/xaviermodcom.appspot.com/o/xmw-2.jpg?alt=media&token=11ded9d3-2916-4798-b218-d822acb18f10"
+    },
+    "progressBar" : {
+      "design" : {
+        "label" : "UI Design",
+        "value" : "20"
+      },
+      "development" : {
+        "label" : "Front End Dev",
+        "value" : "80"
+      }
+    },
+    "standOut" : {
+      "label": "🏅 Favourite"
+    },
+    "tags" : [ null, "#programming", "#design" ],
+    "title" : "xaviermod.com"
+  }
+}

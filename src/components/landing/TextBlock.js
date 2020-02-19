@@ -6,11 +6,14 @@ const TextBlockContainer = styled.div`
     animation-fill-mode: backwards;
 `;
 
+const P = styled.p`
+    font-size: 1.2rem;
+`;
 
 const TextBlock = ( props ) =>  {   
     return (
         <TextBlockContainer>
-            <p>{props.text}</p>
+            <P>{props.text}</P>
         </TextBlockContainer>
     );
 }
