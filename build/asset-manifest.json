@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.51a8e747.chunk.css",
+    "main.js": "/static/js/main.fc48a091.chunk.js",
+    "main.js.map": "/static/js/main.fc48a091.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.0b8f3a6b.js",
+    "runtime~main.js.map": "/static/js/runtime~main.0b8f3a6b.js.map",
+    "static/css/2.004dfc95.chunk.css": "/static/css/2.004dfc95.chunk.css",
+    "static/js/2.684a0db9.chunk.js": "/static/js/2.684a0db9.chunk.js",
+    "static/js/2.684a0db9.chunk.js.map": "/static/js/2.684a0db9.chunk.js.map",
+    "static/js/3.fef83515.chunk.js": "/static/js/3.fef83515.chunk.js",
+    "static/js/3.fef83515.chunk.js.map": "/static/js/3.fef83515.chunk.js.map",
+    "static/js/4.33a1aa5d.chunk.js": "/static/js/4.33a1aa5d.chunk.js",
+    "static/js/4.33a1aa5d.chunk.js.map": "/static/js/4.33a1aa5d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0419eead6ebe7274accf0f07ba6bcb20.js": "/precache-manifest.0419eead6ebe7274accf0f07ba6bcb20.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.004dfc95.chunk.css.map": "/static/css/2.004dfc95.chunk.css.map",
+    "static/css/main.51a8e747.chunk.css.map": "/static/css/main.51a8e747.chunk.css.map",
+    "static/media/github.svg": "/static/media/github.617870e4.svg",
+    "static/media/gmail-logo.svg": "/static/media/gmail-logo.284ba2d2.svg",
+    "static/media/hi-im-xavier-mod.svg": "/static/media/hi-im-xavier-mod.60d7cffc.svg",
+    "static/media/image-outline.svg": "/static/media/image-outline.6d5e8c46.svg",
+    "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.b4cf8300.svg",
+    "static/media/me.png": "/static/media/me.8e681783.png",
+    "static/media/medium.svg": "/static/media/medium.5b6c39e9.svg",
+    "static/media/test1.png": "/static/media/test1.fb04913d.png",
+    "static/media/test2.png": "/static/media/test2.ead74331.png",
+    "static/media/test3.jpg": "/static/media/test3.d80d36d6.jpg",
+    "static/media/xm-main.svg": "/static/media/xm-main.18ff4782.svg"
+  }
+}
